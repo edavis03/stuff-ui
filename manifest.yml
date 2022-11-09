@@ -1,0 +1,7 @@
+applications:
+- name: stuff-ui
+  instances: 1
+  memory: 126M
+  path: build
+  buildpacks:
+  - staticfile_buildpack
